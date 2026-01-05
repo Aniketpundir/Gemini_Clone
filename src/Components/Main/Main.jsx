@@ -17,15 +17,14 @@ const Main = () => {
     <>
       <div className="main">
         <div className="nav">
-          <p>Gimini...</p>
-          <img src={assets.user_icon} />
+          <p>MyPoet...</p>
         </div>
         <div className="main-container">
           {!showResult ? (
             <>
               <div className="greet">
                 <p>
-                  <span>Hello, Aniket</span>
+                  <span>Hello,</span>
                 </p>
                 <p>How can I help you today?</p>
               </div>
